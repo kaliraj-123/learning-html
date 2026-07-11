@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five lands</title>
+</head>
+<body>
+
+<div class="gallery">
+    <a href="Kurinji.html">  
+    <img src="images/kurinji.jpeg" alt="Image 4">
+    </a>
+
+    <a  href="mullai.html">
+    <img src="images/mullai.jpeg" alt="Image 2">
+    </a>
+
+    <a href="paalai.html">
+    <img src="images/paalai.jpeg" alt="Image 1">
+    </a>
+    
+    <a href="neythal.html">
+    <img src="images/neythal.jpeg" alt="Image 3">
+    </a>
+<div class="marutham1">
+    <a href="marutham.html">
+    <img src="images/marutham1.png" alt="Image 1">
+    </a>
+</div>
+</div>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    margin: 20px;
+}
+.gallery{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    height: 1vh;
+    gap:  5px;
+}
+.gallery img{
+    width: 88vh;
+    height: 49vh;
+    object-fit:cover;
+}
+.marutham1{
+    position: absolute;
+    top:53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 47%;
+    
+}
+</style>
+</body>
+</html>
